@@ -1,0 +1,4 @@
+06-Sep-2020 15:46:08.777 信息 [Thread-3] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+06-Sep-2020 15:46:08.798 信息 [Thread-3] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+06-Sep-2020 15:46:08.847 信息 [Thread-3] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+06-Sep-2020 15:46:08.853 信息 [Thread-3] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

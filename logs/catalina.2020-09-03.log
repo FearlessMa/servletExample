@@ -1,0 +1,1237 @@
+03-Sep-2020 17:22:04.995 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:22:04.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:22:04.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:22:04.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:22:05.009 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:22:05.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:22:05.011 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:22:05.011 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:22:05.011 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:22:05.223 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:22:05.262 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[424]毫秒内初始化
+03-Sep-2020 17:22:05.292 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:22:05.292 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:22:05.299 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:22:05.498 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[198]毫秒内完成
+03-Sep-2020 17:22:05.498 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:22:05.533 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[35]毫秒内完成
+03-Sep-2020 17:22:05.533 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:22:05.755 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[221]毫秒内完成
+03-Sep-2020 17:22:05.755 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:22:05.770 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[15]毫秒内完成
+03-Sep-2020 17:22:05.770 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:22:05.788 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[18]毫秒内完成
+03-Sep-2020 17:22:05.791 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:22:05.799 信息 [main] org.apache.catalina.startup.Catalina.start [536]毫秒后服务器启动
+03-Sep-2020 17:38:29.103 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+03-Sep-2020 17:38:29.104 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+03-Sep-2020 17:38:29.139 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为的上下文
+03-Sep-2020 17:40:09.327 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+03-Sep-2020 17:40:09.327 信息 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+03-Sep-2020 17:40:09.342 严重 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 启动Context[]出现异常
+	org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3754)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[null]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+03-Sep-2020 17:40:09.343 信息 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为的上下文
+03-Sep-2020 17:45:32.327 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:45:32.327 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:45:32.331 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:45:32.339 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:45:32.341 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:45:42.969 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:45:42.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:45:42.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:45:42.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:45:42.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:45:42.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:45:42.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:45:42.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:45:42.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:45:42.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:45:42.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:45:42.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:45:42.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:45:42.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:45:42.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:45:42.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:45:42.985 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:45:43.184 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:45:43.215 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[393]毫秒内初始化
+03-Sep-2020 17:45:43.242 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:45:43.242 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:45:43.248 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:45:43.429 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[180]毫秒内完成
+03-Sep-2020 17:45:43.429 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:45:43.454 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[25]毫秒内完成
+03-Sep-2020 17:45:43.455 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:45:43.639 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[184]毫秒内完成
+03-Sep-2020 17:45:43.639 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:45:43.650 严重 [main] org.apache.catalina.startup.HostConfig.deployDirectory 无法部署应用目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[null]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+03-Sep-2020 17:45:43.652 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[13]毫秒内完成
+03-Sep-2020 17:45:43.652 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:45:43.666 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 17:45:43.669 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:45:43.674 信息 [main] org.apache.catalina.startup.Catalina.start [458]毫秒后服务器启动
+03-Sep-2020 17:46:21.434 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:46:21.435 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:46:21.439 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:46:21.452 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:46:21.454 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:46:30.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:46:30.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:46:30.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:46:30.763 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:46:30.763 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:46:30.763 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:46:30.763 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:46:30.764 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:46:30.961 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:46:30.993 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[391]毫秒内初始化
+03-Sep-2020 17:46:31.015 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:46:31.015 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:46:31.020 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:46:31.194 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[172]毫秒内完成
+03-Sep-2020 17:46:31.194 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:46:31.228 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[34]毫秒内完成
+03-Sep-2020 17:46:31.228 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:46:31.448 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[220]毫秒内完成
+03-Sep-2020 17:46:31.449 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:46:31.461 严重 [main] org.apache.catalina.startup.HostConfig.deployDirectory 无法部署应用目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[null]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+03-Sep-2020 17:46:31.463 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[13]毫秒内完成
+03-Sep-2020 17:46:31.463 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:46:31.479 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[16]毫秒内完成
+03-Sep-2020 17:46:31.482 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:46:31.488 信息 [main] org.apache.catalina.startup.Catalina.start [494]毫秒后服务器启动
+03-Sep-2020 17:46:59.362 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:46:59.363 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:46:59.367 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:46:59.381 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:46:59.383 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:47:09.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:47:09.721 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:47:09.721 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:47:09.721 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:47:09.721 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:47:09.721 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:47:09.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:47:09.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:47:09.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:47:09.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:47:09.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:47:09.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:47:09.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:47:09.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:47:09.734 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:47:09.933 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:47:09.964 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[391]毫秒内初始化
+03-Sep-2020 17:47:09.988 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:47:09.988 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:47:09.993 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:47:10.149 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[154]毫秒内完成
+03-Sep-2020 17:47:10.149 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:47:10.176 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[26]毫秒内完成
+03-Sep-2020 17:47:10.176 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:47:10.358 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[182]毫秒内完成
+03-Sep-2020 17:47:10.358 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:47:10.370 严重 [main] org.apache.catalina.startup.HostConfig.deployDirectory 无法部署应用目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[null]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+03-Sep-2020 17:47:10.372 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[13]毫秒内完成
+03-Sep-2020 17:47:10.372 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:47:10.386 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 17:47:10.389 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:47:10.395 信息 [main] org.apache.catalina.startup.Catalina.start [430]毫秒后服务器启动
+03-Sep-2020 17:47:49.059 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:47:49.060 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:47:49.063 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:47:49.076 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:47:49.078 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:01.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:48:01.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:48:01.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:01.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:01.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:48:01.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:01.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:01.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:48:01.122 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:48:01.320 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:01.351 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[393]毫秒内初始化
+03-Sep-2020 17:48:01.374 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:48:01.374 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:48:01.379 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:48:01.557 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[176]毫秒内完成
+03-Sep-2020 17:48:01.557 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:48:01.588 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[31]毫秒内完成
+03-Sep-2020 17:48:01.588 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:48:01.781 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[193]毫秒内完成
+03-Sep-2020 17:48:01.782 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:48:01.794 严重 [main] org.apache.catalina.startup.HostConfig.deployDirectory 无法部署应用目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[MyServlet]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+03-Sep-2020 17:48:01.796 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[14]毫秒内完成
+03-Sep-2020 17:48:01.796 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:48:01.813 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[16]毫秒内完成
+03-Sep-2020 17:48:01.815 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:48:01.822 信息 [main] org.apache.catalina.startup.Catalina.start [470]毫秒后服务器启动
+03-Sep-2020 17:48:18.435 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:48:18.436 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:48:18.441 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:48:18.455 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:48:18.458 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:20.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:48:20.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:48:20.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:48:20.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:20.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:20.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:48:20.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:20.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:20.663 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:48:20.663 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:48:20.859 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:20.890 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[389]毫秒内初始化
+03-Sep-2020 17:48:20.914 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:48:20.914 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:48:20.919 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:48:21.083 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[161]毫秒内完成
+03-Sep-2020 17:48:21.083 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:48:21.113 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[30]毫秒内完成
+03-Sep-2020 17:48:21.113 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:48:21.309 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[196]毫秒内完成
+03-Sep-2020 17:48:21.309 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:48:21.323 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[14]毫秒内完成
+03-Sep-2020 17:48:21.323 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:48:21.337 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 17:48:21.340 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:48:21.346 信息 [main] org.apache.catalina.startup.Catalina.start [455]毫秒后服务器启动
+03-Sep-2020 17:48:38.904 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:48:38.905 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:48:38.908 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:48:38.925 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:48:38.928 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:42.899 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:48:42.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:42.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:42.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:48:42.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:48:42.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:48:42.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:48:42.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:48:42.914 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:48:43.112 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:43.148 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[397]毫秒内初始化
+03-Sep-2020 17:48:43.177 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:48:43.178 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:48:43.184 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:48:43.360 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[174]毫秒内完成
+03-Sep-2020 17:48:43.360 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:48:43.384 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[24]毫秒内完成
+03-Sep-2020 17:48:43.385 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:48:43.576 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[191]毫秒内完成
+03-Sep-2020 17:48:43.576 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:48:43.592 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[16]毫秒内完成
+03-Sep-2020 17:48:43.592 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:48:43.608 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[15]毫秒内完成
+03-Sep-2020 17:48:43.610 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:48:43.616 信息 [main] org.apache.catalina.startup.Catalina.start [467]毫秒后服务器启动
+03-Sep-2020 17:48:51.341 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:48:51.342 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:48:51.353 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:48:51.370 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:48:51.374 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:54.150 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:48:54.153 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:48:54.154 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:48:54.154 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:54.154 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:54.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:48:54.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:48:54.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:48:54.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:48:54.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:48:54.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:48:54.165 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:48:54.364 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:48:54.395 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[390]毫秒内初始化
+03-Sep-2020 17:48:54.419 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:48:54.419 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:48:54.424 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:48:54.607 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[180]毫秒内完成
+03-Sep-2020 17:48:54.607 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:48:54.637 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[30]毫秒内完成
+03-Sep-2020 17:48:54.638 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:48:54.828 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[190]毫秒内完成
+03-Sep-2020 17:48:54.829 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:48:54.846 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[18]毫秒内完成
+03-Sep-2020 17:48:54.846 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:48:54.863 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[17]毫秒内完成
+03-Sep-2020 17:48:54.866 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:48:54.873 信息 [main] org.apache.catalina.startup.Catalina.start [478]毫秒后服务器启动
+03-Sep-2020 17:49:02.278 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:49:02.278 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:49:02.289 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:49:02.308 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:49:02.312 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:51:58.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:51:58.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:51:58.702 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:51:58.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:51:58.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:51:58.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:51:58.714 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:51:58.911 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:51:58.941 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[392]毫秒内初始化
+03-Sep-2020 17:51:58.964 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:51:58.965 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:51:58.969 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:51:59.139 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[168]毫秒内完成
+03-Sep-2020 17:51:59.139 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:51:59.170 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[30]毫秒内完成
+03-Sep-2020 17:51:59.170 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:51:59.334 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[164]毫秒内完成
+03-Sep-2020 17:51:59.335 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:51:59.348 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[13]毫秒内完成
+03-Sep-2020 17:51:59.348 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:51:59.362 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 17:51:59.364 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:51:59.369 信息 [main] org.apache.catalina.startup.Catalina.start [427]毫秒后服务器启动
+03-Sep-2020 17:52:19.371 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+03-Sep-2020 17:52:19.372 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+03-Sep-2020 17:52:19.395 严重 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 启动Context[]出现异常
+	org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3754)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[MyServlet]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+03-Sep-2020 17:52:19.397 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为的上下文
+03-Sep-2020 17:52:21.980 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:52:21.980 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:52:21.984 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:52:21.994 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:52:21.996 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:52:24.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:52:24.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:52:24.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:52:24.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:52:24.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:52:24.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:52:24.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:52:24.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:52:24.791 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:52:24.986 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:52:25.019 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[390]毫秒内初始化
+03-Sep-2020 17:52:25.044 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:52:25.044 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:52:25.050 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:52:25.243 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[191]毫秒内完成
+03-Sep-2020 17:52:25.243 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:52:25.275 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[31]毫秒内完成
+03-Sep-2020 17:52:25.275 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:52:25.486 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[211]毫秒内完成
+03-Sep-2020 17:52:25.486 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:52:25.498 严重 [main] org.apache.catalina.startup.HostConfig.deployDirectory 无法部署应用目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[MyServlet]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1383)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+03-Sep-2020 17:52:25.499 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[13]毫秒内完成
+03-Sep-2020 17:52:25.500 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:52:25.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[15]毫秒内完成
+03-Sep-2020 17:52:25.518 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:52:25.523 信息 [main] org.apache.catalina.startup.Catalina.start [504]毫秒后服务器启动
+03-Sep-2020 17:53:15.532 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+03-Sep-2020 17:53:15.555 严重 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 上下文[]重新启动时出错。
+	org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[MyServlet]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3176)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+03-Sep-2020 17:53:45.570 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+03-Sep-2020 17:53:54.425 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:53:54.426 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:53:54.429 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:53:54.441 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:53:54.443 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:53:55.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:53:55.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:53:55.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:53:55.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:53:55.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:53:55.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:53:55.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:53:55.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:53:55.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:53:55.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:53:55.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:53:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:53:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:53:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:53:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:53:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:53:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:53:55.942 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:53:56.148 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:53:56.184 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[407]毫秒内初始化
+03-Sep-2020 17:53:56.215 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:53:56.215 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:53:56.221 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:53:56.396 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[172]毫秒内完成
+03-Sep-2020 17:53:56.396 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:53:56.422 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[26]毫秒内完成
+03-Sep-2020 17:53:56.422 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:53:56.581 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[159]毫秒内完成
+03-Sep-2020 17:53:56.581 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:53:56.603 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[22]毫秒内完成
+03-Sep-2020 17:53:56.603 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:53:56.621 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[18]毫秒内完成
+03-Sep-2020 17:53:56.624 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:53:56.633 信息 [main] org.apache.catalina.startup.Catalina.start [448]毫秒后服务器启动
+03-Sep-2020 17:54:19.169 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:54:19.169 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:54:19.174 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:54:19.189 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:54:19.191 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:54:26.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:54:26.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:54:26.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:54:26.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:54:26.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:54:26.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:54:26.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:54:26.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:54:26.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:54:26.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:54:26.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:54:26.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:54:26.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:54:26.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:54:26.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:54:26.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:54:26.692 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:54:26.887 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:54:26.918 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[388]毫秒内初始化
+03-Sep-2020 17:54:26.942 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:54:26.942 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:54:26.947 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:54:27.132 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[183]毫秒内完成
+03-Sep-2020 17:54:27.132 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:54:27.163 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[30]毫秒内完成
+03-Sep-2020 17:54:27.163 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:54:27.346 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[183]毫秒内完成
+03-Sep-2020 17:54:27.346 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:54:27.367 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[20]毫秒内完成
+03-Sep-2020 17:54:27.367 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:54:27.381 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 17:54:27.384 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:54:27.390 信息 [main] org.apache.catalina.startup.Catalina.start [471]毫秒后服务器启动
+03-Sep-2020 17:54:40.424 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:54:40.425 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:54:40.428 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:54:40.445 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:54:40.448 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:57:43.387 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 17:57:43.389 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:57:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:57:43.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 17:57:43.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 17:57:43.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 17:57:43.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 17:57:43.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 17:57:43.402 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 17:57:43.609 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 17:57:43.640 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[400]毫秒内初始化
+03-Sep-2020 17:57:43.662 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 17:57:43.663 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 17:57:43.667 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 17:57:43.835 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[166]毫秒内完成
+03-Sep-2020 17:57:43.835 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 17:57:43.864 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[29]毫秒内完成
+03-Sep-2020 17:57:43.864 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 17:57:44.066 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[202]毫秒内完成
+03-Sep-2020 17:57:44.067 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 17:57:44.088 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[21]毫秒内完成
+03-Sep-2020 17:57:44.089 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 17:57:44.104 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 17:57:44.106 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 17:57:44.112 信息 [main] org.apache.catalina.startup.Catalina.start [471]毫秒后服务器启动
+03-Sep-2020 17:59:12.171 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 17:59:12.172 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 17:59:12.176 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 17:59:12.192 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 17:59:12.194 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:00:15.024 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 18:00:15.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 18:00:15.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:00:15.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:00:15.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 18:00:15.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 18:00:15.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:00:15.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 18:00:15.040 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 18:00:15.236 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:00:15.267 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[390]毫秒内初始化
+03-Sep-2020 18:00:15.289 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 18:00:15.290 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 18:00:15.294 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 18:00:15.467 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[171]毫秒内完成
+03-Sep-2020 18:00:15.467 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 18:00:15.498 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[30]毫秒内完成
+03-Sep-2020 18:00:15.498 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 18:00:15.691 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[192]毫秒内完成
+03-Sep-2020 18:00:15.691 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 18:00:15.715 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[24]毫秒内完成
+03-Sep-2020 18:00:15.716 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 18:00:15.734 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[18]毫秒内完成
+03-Sep-2020 18:00:15.737 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 18:00:15.744 信息 [main] org.apache.catalina.startup.Catalina.start [476]毫秒后服务器启动
+03-Sep-2020 18:24:26.290 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+03-Sep-2020 18:24:26.291 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+03-Sep-2020 18:24:26.318 严重 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 启动Context[]出现异常
+	org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3754)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: Servlet映射指定未知的Servlet名称[html]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3172)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+03-Sep-2020 18:24:26.319 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为的上下文
+03-Sep-2020 18:24:27.566 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 18:24:27.566 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 18:24:27.570 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 18:24:27.579 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 18:24:27.581 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:24:32.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 18:24:32.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 18:24:32.759 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:24:32.759 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:24:32.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 18:24:32.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 18:24:32.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 18:24:32.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 18:24:32.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 18:24:32.771 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 18:24:32.969 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:24:33.001 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[396]毫秒内初始化
+03-Sep-2020 18:24:33.025 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 18:24:33.025 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 18:24:33.030 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 18:24:33.235 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[203]毫秒内完成
+03-Sep-2020 18:24:33.235 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 18:24:33.268 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[32]毫秒内完成
+03-Sep-2020 18:24:33.268 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 18:24:33.460 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[192]毫秒内完成
+03-Sep-2020 18:24:33.460 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 18:24:33.471 严重 [main] org.apache.catalina.startup.HostConfig.deployDirectory 无法部署应用目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Servlet映射指定未知的Servlet名称[html]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3172)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1603)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+03-Sep-2020 18:24:33.473 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[13]毫秒内完成
+03-Sep-2020 18:24:33.473 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 18:24:33.488 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[14]毫秒内完成
+03-Sep-2020 18:24:33.490 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 18:24:33.495 信息 [main] org.apache.catalina.startup.Catalina.start [493]毫秒后服务器启动
+03-Sep-2020 18:24:56.570 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 18:24:56.571 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 18:24:56.575 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 18:24:56.590 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 18:24:56.592 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:25:10.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 18:25:10.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 18:25:10.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 18:25:10.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:25:10.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:25:10.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 18:25:10.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:25:10.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 18:25:10.118 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 18:25:10.314 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:25:10.345 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[390]毫秒内初始化
+03-Sep-2020 18:25:10.371 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 18:25:10.371 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 18:25:10.377 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 18:25:10.581 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[202]毫秒内完成
+03-Sep-2020 18:25:10.582 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 18:25:10.617 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[36]毫秒内完成
+03-Sep-2020 18:25:10.617 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 18:25:10.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[190]毫秒内完成
+03-Sep-2020 18:25:10.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 18:25:10.828 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[21]毫秒内完成
+03-Sep-2020 18:25:10.828 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 18:25:10.844 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[16]毫秒内完成
+03-Sep-2020 18:25:10.847 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 18:25:10.853 信息 [main] org.apache.catalina.startup.Catalina.start [507]毫秒后服务器启动
+03-Sep-2020 18:26:09.578 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+03-Sep-2020 18:26:09.578 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+03-Sep-2020 18:26:09.582 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+03-Sep-2020 18:26:09.597 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+03-Sep-2020 18:26:09.599 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:26:11.062 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.37
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 20:09:49 UTC
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.37.0
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.6
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.2+12-46
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Sep-2020 18:26:11.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:26:11.066 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:26:11.076 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/mhc/work/javaLib/Tomcat/servlet/conf/logging.properties
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2020 18:26:11.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Sep-2020 18:26:11.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+03-Sep-2020 18:26:11.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:26:11.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/mhc/work/javaLib/Tomcat/servlet
+03-Sep-2020 18:26:11.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/mhc/work/javaLib/Tomcat/servlet/temp
+03-Sep-2020 18:26:11.078 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/mhc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Sep-2020 18:26:11.282 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Sep-2020 18:26:11.322 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[406]毫秒内初始化
+03-Sep-2020 18:26:11.353 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Sep-2020 18:26:11.353 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.37]
+03-Sep-2020 18:26:11.359 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]
+03-Sep-2020 18:26:11.551 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/docs]的部署已在[190]毫秒内完成
+03-Sep-2020 18:26:11.551 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]
+03-Sep-2020 18:26:11.576 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/manager]的部署已在[25]毫秒内完成
+03-Sep-2020 18:26:11.576 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]
+03-Sep-2020 18:26:11.799 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/examples]的部署已在[223]毫秒内完成
+03-Sep-2020 18:26:11.799 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]
+03-Sep-2020 18:26:11.825 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/ROOT]的部署已在[26]毫秒内完成
+03-Sep-2020 18:26:11.825 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]
+03-Sep-2020 18:26:11.843 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/mhc/work/javaLib/Tomcat/servlet/webapps/host-manager]的部署已在[18]毫秒内完成
+03-Sep-2020 18:26:11.846 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Sep-2020 18:26:11.853 信息 [main] org.apache.catalina.startup.Catalina.start [529]毫秒后服务器启动
