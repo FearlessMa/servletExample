@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
@@ -15,16 +16,16 @@ public class Request extends HttpServlet {
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     resp.setContentType("text/html;charset=utf-8");
     PrintWriter out = resp.getWriter();
-    //  根据 name 获取值
-    String origin = req.getHeader("Origin");
-    //  获取所有头部 name
+    // 根据 name 获取值
+    String Referer = req.getHeader("Referer");
+    // 获取所有头部 name
     Enumeration<String> hNames = req.getHeaderNames();
     out.println("<html>");
     out.println("<head>");
     out.println("<title>config</title>");
     out.println("</head>");
     out.println("<body>");
-    out.println("<div>origin ：" + origin + "</div>");
+    out.println("<div>Referer ：" + Referer + "</div>");
     while (hNames.hasMoreElements()) {
       String name = hNames.nextElement();
       String value = req.getHeader(name);
