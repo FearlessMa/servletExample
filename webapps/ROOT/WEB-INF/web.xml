@@ -34,6 +34,10 @@
 </web-app> -->
 
 <web-app>
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+    Welcome to Tomcat
+  </description>
   <servlet>
     <servlet-name>MyServlet</servlet-name>
     <servlet-class>MyServlet</servlet-class>
