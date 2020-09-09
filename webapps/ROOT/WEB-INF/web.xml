@@ -55,6 +55,11 @@
     <servlet-name>LearnServlet</servlet-name>
     <url-pattern>/LearnServlet</url-pattern>
   </servlet-mapping>
+  <!-- session -->
+  <session-config>
+    <!-- 单位：分钟  -->
+    <session-timeout>30</session-timeout>
+  </session-config>
 
   <!-- <servlet-mapping>
         <servlet-name>html</servlet-name>

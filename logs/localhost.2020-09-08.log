@@ -1,0 +1,1766 @@
+08-Sep-2020 10:58:13.496 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 10:58:13.496 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 10:58:16.607 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 10:58:16.607 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 10:58:16.608 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 11:04:12.633 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:04:12.633 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:04:15.105 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:04:15.105 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:04:15.106 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 11:04:17.447 严重 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为[]的上下文中，servlet[session]的Servlet.service()引发异常
+	java.lang.NullPointerException
+		at ExampleSession.doGet(ExampleSession.java:31)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 11:04:40.930 严重 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为[]的上下文中，servlet[session]的Servlet.service()引发异常
+	java.lang.NullPointerException
+		at ExampleSession.doGet(ExampleSession.java:31)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 11:13:19.960 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:13:19.960 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:13:22.514 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:13:22.514 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:13:22.515 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 11:15:02.605 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:15:02.605 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:15:02.606 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6d24ffa1')
+08-Sep-2020 11:15:02.671 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:15:02.671 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:15:05.017 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:15:05.017 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:17:19.630 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:17:19.630 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:17:19.631 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@71ae31b0')
+08-Sep-2020 11:22:00.262 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:22:00.263 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:22:02.944 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:22:02.944 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:22:02.946 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21d8bcbe')
+08-Sep-2020 11:23:16.068 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:23:16.068 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:23:18.442 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:23:18.442 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:23:18.443 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 11:36:52.834 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:36:52.834 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:36:55.373 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:36:55.373 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:36:55.374 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 11:37:29.077 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:37:29.078 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:37:31.607 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:37:31.607 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:37:31.608 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21d8bcbe')
+08-Sep-2020 11:40:39.591 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 11:40:39.591 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 11:40:42.020 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 11:40:42.021 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 11:40:42.021 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 15:14:15.032 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 15:14:15.032 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 15:14:19.663 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 15:14:19.663 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 15:14:19.663 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 16:03:25.346 严重 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/jsp/navBar.jsp (行.: [2], 列: [1]) Page指令：非法出现多次出现的'contentType'具有不同的值（old：[text/html;charset=UTF-8]，new：[text/html; charset=UTF-8]）
+	org.apache.jasper.JasperException: /jsp/navBar.jsp (行.: [2], 列: [1]) Page指令：非法出现多次出现的'contentType'具有不同的值（old：[text/html;charset=UTF-8]，new：[text/html; charset=UTF-8]）
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:115)
+		at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:140)
+		at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:579)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:106)
+		at org.apache.jasper.compiler.Node$IncludeDirective.accept(Node.java:643)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1817)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:28:02.415 严重 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [24] 行发生了一个错误
+i cannot be resolved to a variable
+21:       sid :<%= session.getAttribute("sid") %>
+22:     </div>
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [24] 行发生了一个错误
+i cannot be resolved to a variable
+21:       sid :<%= session.getAttribute("sid") %>
+22:     </div>
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [24] 行发生了一个错误
+i cannot be resolved to a variable
+21:       sid :<%= session.getAttribute("sid") %>
+22:     </div>
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [26] 行发生了一个错误
+i cannot be resolved to a variable
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+28:       <% } %>
+29:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [24] 行发生了一个错误
+i cannot be resolved to a variable
+21:       sid :<%= session.getAttribute("sid") %>
+22:     </div>
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [24] 行发生了一个错误
+i cannot be resolved to a variable
+21:       sid :<%= session.getAttribute("sid") %>
+22:     </div>
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [24] 行发生了一个错误
+i cannot be resolved to a variable
+21:       sid :<%= session.getAttribute("sid") %>
+22:     </div>
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [26] 行发生了一个错误
+i cannot be resolved to a variable
+23:     <div>
+24:       cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+25:         <div>
+26:           key= <%= request.getCookies()[i].getName() %>
+27:         </div>
+28:       <% } %>
+29:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:29:07.388 严重 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:       <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:29:16.846 严重 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:29:21.552 严重 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies().length %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:29:33.816 严重 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:29:38.344 严重 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa <%= request.getCookies() %>
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:30:27.299 严重 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:30:33.618 严重 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:30:44.114 严重 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [25] 行发生了一个错误
+i cannot be resolved to a variable
+22:     </div>
+23:     <div>
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+
+
+JSP文件：[/test.jsp] 的第 [27] 行发生了一个错误
+i cannot be resolved to a variable
+24:      aa 
+25:       <!-- cookie :<% for(i=0;i<request.getCookies().length;i++){ %>
+26:         <div>
+27:           key= <%= request.getCookies()[i].getName() %>
+28:         </div>
+29:       <% } %> -->
+30:     </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:34:33.333 严重 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [32] 行发生了一个错误
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+29:       <% } %>
+30:     </div>
+31:     <div>
+32:       <% Cookie cookie [] = request.getCookies() %>
+33:     </div>
+34:   </div>
+35:   <div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [32] 行发生了一个错误
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+29:       <% } %>
+30:     </div>
+31:     <div>
+32:       <% Cookie cookie [] = request.getCookies() %>
+33:     </div>
+34:   </div>
+35:   <div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:36:36.633 严重 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName();%> = <%= ck.getValue();%></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName();%> = <%= ck.getValue();%></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName();%> = <%= ck.getValue();%></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName();%> = <%= ck.getValue();%></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 16:36:47.917 严重 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName(); %> = <%= ck.getValue(); %></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName(); %> = <%= ck.getValue(); %></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName(); %> = <%= ck.getValue(); %></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+JSP文件：[/test.jsp] 的第 [36] 行发生了一个错误
+Syntax error on token ";", delete this token
+33:         Cookie cookie [] = request.getCookies();
+34:         for(Cookie ck :cookie){
+35:       %>
+36:       <div><%= ck.getName(); %> = <%= ck.getValue(); %></div>
+37:       <%}%>
+38:     </div>
+39:   </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 17:12:14.531 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 17:12:14.531 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 17:12:17.457 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 17:12:17.457 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 17:12:17.458 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7adf16aa')
+08-Sep-2020 17:13:52.575 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 17:13:52.575 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 17:13:55.152 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 17:13:55.152 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 17:13:55.153 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 17:16:28.852 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 17:16:28.852 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 17:16:31.451 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 17:16:31.451 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 17:16:31.452 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 17:39:55.870 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 17:39:55.871 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 17:39:58.763 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 17:39:58.763 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 17:39:58.764 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58bf8650')
+08-Sep-2020 17:46:19.881 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 17:46:19.881 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 17:46:22.641 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 17:46:22.641 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 17:46:22.642 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@71ae31b0')
+08-Sep-2020 18:33:59.682 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Sep-2020 18:33:59.683 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Sep-2020 18:34:02.999 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Sep-2020 18:34:02.999 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Sep-2020 18:34:03.000 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6731787b')
+08-Sep-2020 18:46:29.573 严重 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/login.jsp (行.: [1], 列: [5]) 无效指令
+	org.apache.jasper.JasperException: /login.jsp (行.: [1], 列: [5]) 无效指令
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:512)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 18:46:46.692 严重 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/login.jsp (行.: [1], 列: [5]) 无效指令
+	org.apache.jasper.JasperException: /login.jsp (行.: [1], 列: [5]) 无效指令
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:512)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 18:47:14.067 严重 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/login.jsp (行.: [1], 列: [5]) 无效指令
+	org.apache.jasper.JasperException: /login.jsp (行.: [1], 列: [5]) 无效指令
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:512)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 18:47:29.581 严重 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/login.jsp (行.: [1], 列: [5]) 无效指令
+	org.apache.jasper.JasperException: /login.jsp (行.: [1], 列: [5]) 无效指令
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:512)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+08-Sep-2020 18:47:33.936 严重 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/login.jsp (行.: [1], 列: [5]) 无效指令
+	org.apache.jasper.JasperException: /login.jsp (行.: [1], 列: [5]) 无效指令
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:512)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
